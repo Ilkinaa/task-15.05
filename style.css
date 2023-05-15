@@ -1,0 +1,208 @@
+body{
+    background-color: #ede7f6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: r; 
+    font-family: 'Roboto Mono', monospace;
+
+}
+.main-container{
+    text-align: center;
+
+}
+.main-container>h2{
+    margin: 20px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-container>h2 span{
+    color: rgb(126, 87, 194);
+}
+
+.main-container>input{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+.main-container>textarea{
+    width: 30%;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+.color_container{
+    
+    width: 30%;
+    margin: 10px auto;
+    text-align: left;
+}
+#pink{
+    background-color: rgb(240, 98, 146);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    float: left;
+}
+#pink:hover{
+    transform: translateY(-1px);
+    opacity: 0.7;
+}
+#magenta{
+    background-color: rgb(186, 104, 200);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    float: left;
+}
+#magenta:hover{
+    transform: translateY(-1px);
+    opacity: 0.7;
+}
+#blue{
+    background-color: rgb(79, 195, 247);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    float: left;
+}
+#blue:hover{
+    transform: translateY(-1px);
+    opacity: 0.7;
+}
+#yellow{
+    background-color: rgb(255, 213, 79);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    float: left;
+}
+#yellow:hover{
+    transform: translateY(-1px);
+    opacity: 0.7;
+}
+#green{
+    background-color: rgb(174, 213, 129);
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0s;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    float: left;
+    font-size: 18px;
+}
+#green:hover{
+    transform: translateY(-1px);
+    opacity: 0.7;
+}
+.color_container>button{
+    float: right;
+    padding: 10px 15px;
+    background-color: rgb(126, 87, 194);
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease 0s;
+}
+.color_container>button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    opacity: 0.9;
+}
+.search{
+    text-align: center;
+    width: 32%;
+    margin: 20px auto 5px;
+    margin-top: 70px;
+}
+.search>input{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid rgb(126, 87, 194);
+    outline-color: rgb(81, 45, 168);
+    border-radius: 7px;
+}
+.cards{
+    width: 70%;
+    height: fit-content;
+    margin: 20px auto;
+    display: flex;
+}
+.cards>div {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px dashed rgb(240, 98, 146);
+    margin: 20px 20px 10px;
+}
+.cards h4{
+    margin: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+.card h4{
+    margin: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(240, 98, 146, 0.4);
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+.cards p{
+    padding: 10px;
+    height: 76%;
+    text-align: left;
+    margin: 0px;
+    overflow: auto;
+    font-size: 14px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-container">
+            <h2>Dada Redux 
+               <span>Note</span>Pad
+            </h2>
+            <input id="title" type="text" placeholder="Note Title">
+            <br>
+            <textarea placeholder="Write note..." name="" id="note" cols="30" rows="8"></textarea>
+            <br>
+            <div class="color_container">
+                <div class="colors">
+                    <div><span onclick="changeColor('rgb(240, 98, 146)')" class="color" id="pink">✓</span></div>
+                    <div><span onclick="changeColor('magenta')" class="color" id="magenta">✓</span></div>
+                    <div><span onclick="changeColor('blue')" class="color" id="blue">✓</span></div>
+                    <div><span onclick="changeColor('rgb(255, 213, 79)')" class="color" id="yellow">✓</span></div>
+                    <div><span onclick="changeColor('green')" class="color" id="green">✓</span></div>
+                     
+                </div>
+                <button class="saveBtn">Save ✓</button>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Write to search..">
+                <div>
+                    <img src="./image/search.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="card_container">
+                <div class="cards">
+                    <div class="card">
+                        <h4>Add a title to your note
+                        </h4>
+                        <p>You can choose a color while adding notes. The notes you add will not be lost even if you refresh the page.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
